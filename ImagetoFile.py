@@ -14,6 +14,17 @@ def modify_pixel_and_apply_green_tint(image_path, output_path, rgb_output_file, 
         
         # Store RGB values for the entire image
         rgb_values = []
+        
+        # Print and store RGB values for the first 1 rows, the row start with number 0
+        print("First 10 rows of RGB values of the image:")
+        for y in range(min(1, height)):
+            row_rgb = []
+            for x in range(width):
+                index = y * width + x
+                r, g, b = pixels[index]
+                row_rgb.append((r, g, b))
+                print(f"Pixel ({x}, {y}): (R: {r}, G: {g}, B: {b})")
+            rgb_values.append(row_rgb)
 
         # Save all RGB values to a file
         with open(rgb_output_file, 'w') as f:
@@ -54,5 +65,5 @@ def modify_pixel_and_apply_green_tint(image_path, output_path, rgb_output_file, 
         img.save(output_path)
         print(f"\nImage with modified pixel saved at: {output_path}")
 
-# Example usage:
-modify_pixel_and_apply_green_tint("output_resized_image_quarter_pixels.jpg", "resize_Cow.jpg", "resize_Cow.txt", pixel_x=1, pixel_y=1, new_rgb=(0, 0, 0))  # Change pixel at (1, 1) and 100x100 square to black
+# Call the function and choose the file to handle:
+modify_pixel_and_apply_green_tint("images/new_cow.jpg", "resize_Cow.jpg", "resize_Cow.txt", pixel_x=1, pixel_y=1, new_rgb=(0, 0, 0))  # Change pixel at (1, 1) and 100x100 square to black

@@ -1,3 +1,5 @@
+# Simple code to test how the matlotlib is working
+
 import matplotlib.pyplot as plt
 
 # Data for the plot (X and Y values)

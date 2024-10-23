@@ -1,3 +1,5 @@
+# Basic code to test, how Turtle is working
+
 import turtle
 
 # Setup screen

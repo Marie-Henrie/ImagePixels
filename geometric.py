@@ -1,3 +1,5 @@
+# Practise of using math
+
 import math
 def line_length(dot1, dot2):
     # Extracting coordinates

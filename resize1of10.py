@@ -19,5 +19,5 @@ def resize_image_pixels(image_path, output_path):
         print(f"Resized image saved as {output_path} with size: {new_width}x{new_height}")
         print(f"New size has 1/10th the pixels of the original image.")
 
-# Call the function:
+# Call the function, change here the picture path
 resize_image_pixels("images/lehma.jpg", "images/new_Cow.jpg")
