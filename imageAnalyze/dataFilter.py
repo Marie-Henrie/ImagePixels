@@ -1,6 +1,6 @@
 import re
 
-def filter_pixel_data(input_file, output_file, x_range=(0, 999), y_range=(0, 999)):
+def filter_pixel_dataFile(input_file, output_file, x_range=(0, 999), y_range=(0, 999)):
     # Open the input file for reading
     with open(input_file, 'r') as infile:
         # Open the output file for writing
@@ -21,5 +21,7 @@ def filter_pixel_data(input_file, output_file, x_range=(0, 999), y_range=(0, 999
 
     print(f"Filtered pixel data saved to {output_file}")
 
-# Example usage
-filter_pixel_data('rgb_values.txt', 'filtered_pixels_1000_1000.txt', x_range=(0, 999), y_range=(0, 999))
+# This function will be called from other file
+if __name__ == "__main__":
+     # Call the function
+    filter_pixel_dataFile('rgb_values.txt', 'filtered_pixels_1000_1000.txt', x_range=(0, 999), y_range=(0, 999))

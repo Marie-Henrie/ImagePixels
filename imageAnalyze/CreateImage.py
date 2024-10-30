@@ -1,10 +1,12 @@
 from PIL import Image
 import re
 
+# function create a new iamge based on text file, where is RGB values in lines
+# the file have been created from original RGB image
 def create_image_from_rgb_file(input_file, output_image):
     max_x, max_y = 0, 0
 
-    # First pass: Determine the image dimensions (find max x and y values)
+    # Analyse the image dimensions
     with open(input_file, 'r') as f:
         for line in f:
             match = re.match(r"Pixel \((\d+), (\d+)\): \(R: (\d+), G: (\d+), B: (\d+)\)", line)
@@ -20,14 +22,14 @@ def create_image_from_rgb_file(input_file, output_image):
 
     print(f"Image dimensions: Width = {width}, Height = {height}")
 
-    # Create a new blank image with the calculated dimensions
+    # Create a new image from the txt file RBG values
     try:
         img = Image.new('RGB', (width, height), (255, 255, 255))  # Initialize with white background
     except MemoryError as e:
         print(f"Error: Not enough memory to create an image of size {width}x{height}")
         return
 
-    # Second pass: Set the pixels based on the RGB values in the file
+    # Set the pixels based on the RGB values in the file
     with open(input_file, 'r') as f:
         for line in f:
             match = re.match(r"Pixel \((\d+), (\d+)\): \(R: (\d+), G: (\d+), B: (\d+)\)", line)
@@ -49,5 +51,7 @@ def create_image_from_rgb_file(input_file, output_image):
     except Exception as e:
         print(f"Error saving the image: {e}")
 
-# Example usage
-create_image_from_rgb_file('resize_cow.txt', 'All_Cow.png')
+# This function will be called from other file
+if __name__ == "__main__":
+    # Call the function and create the new image and save it
+    create_image_from_rgb_file('imagesToPixels.txt', 'Pixel_Cow.png')

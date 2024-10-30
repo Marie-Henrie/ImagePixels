@@ -22,10 +22,10 @@ def apply_green_tint(image_path, output_path):
         img.save(output_path)
         print(f"Image with green tint saved at: {output_path}")
 
-
-
-# Call the function
-apply_green_tint(
+# This function will be called from other file
+if __name__ == "__main__":
+    # Call the function
+    apply_green_tint(
     "images/cow.jpg", 
     "greenCow.jpg"
 )

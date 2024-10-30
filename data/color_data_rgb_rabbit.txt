@@ -1,0 +1,84 @@
+Block at (0, 0) - Average Color, 172, 65,92 ,- Closest Color:, Darker Violet Light, F3
+Block at (32, 0) - Average Color, 173, 63,86 ,- Closest Color:, Darker Violet Light, F3
+Block at (64, 0) - Average Color, 174, 58,68 ,- Closest Color:, Reddish Orange Darker, G#1
+Block at (96, 0) - Average Color, 179, 61,70 ,- Closest Color:, Reddish Orange Darker, G#1
+Block at (128, 0) - Average Color, 179, 61,72 ,- Closest Color:, Reddish Orange Darker, G#1
+Block at (160, 0) - Average Color, 178, 73,76 ,- Closest Color:, Red Light, G3
+Block at (192, 0) - Average Color, 189, 86,103 ,- Closest Color:, Red Light, G3
+Block at (0, 32) - Average Color, 152, 74,84 ,- Closest Color:, Darker Violet Light, F3
+Block at (32, 32) - Average Color, 140, 66,92 ,- Closest Color:, Darker Violet Light, F3
+Block at (64, 32) - Average Color, 167, 60,72 ,- Closest Color:, Reddish Orange Darker, G#1
+Block at (96, 32) - Average Color, 174, 67,72 ,- Closest Color:, Reddish Orange Darker, G#1
+Block at (128, 32) - Average Color, 169, 65,80 ,- Closest Color:, Darker Violet Light, F3
+Block at (160, 32) - Average Color, 100, 94,72 ,- Closest Color:, Lemon Yellow Darker, H/B1
+Block at (192, 32) - Average Color, 180, 122,105 ,- Closest Color:, Lemon Yellow Darker, H/B1
+Block at (0, 64) - Average Color, 121, 79,67 ,- Closest Color:, Reddish Orange Darker, G#1
+Block at (32, 64) - Average Color, 49, 59,76 ,- Closest Color:, Indigo Darker, D#1
+Block at (64, 64) - Average Color, 164, 64,81 ,- Closest Color:, Darker Violet Light, F3
+Block at (96, 64) - Average Color, 171, 69,81 ,- Closest Color:, Darker Violet Light, F3
+Block at (128, 64) - Average Color, 133, 65,82 ,- Closest Color:, Darker Violet Dark, F2
+Block at (160, 64) - Average Color, 80, 76,84 ,- Closest Color:, Darker Violet Darker, F1
+Block at (192, 64) - Average Color, 183, 115,121 ,- Closest Color:, Ultra Violet Darker, F#1
+Block at (0, 96) - Average Color, 104, 68,58 ,- Closest Color:, Darker Violet Darker, F1
+Block at (32, 96) - Average Color, 40, 60,66 ,- Closest Color:, Indigo Darker, D#1
+Block at (64, 96) - Average Color, 129, 76,85 ,- Closest Color:, Darker Violet Dark, F2
+Block at (96, 96) - Average Color, 176, 81,94 ,- Closest Color:, Darker Violet Light, F3
+Block at (128, 96) - Average Color, 129, 81,87 ,- Closest Color:, Lemon Yellow Darker, H/B1
+Block at (160, 96) - Average Color, 81, 64,83 ,- Closest Color:, Darker Violet Darker, F1
+Block at (192, 96) - Average Color, 175, 109,130 ,- Closest Color:, Ultra Violet Darker, F#1
+Block at (0, 128) - Average Color, 115, 68,61 ,- Closest Color:, Reddish Orange Darker, G#1
+Block at (32, 128) - Average Color, 44, 65,65 ,- Closest Color:, Indigo Darker, D#1
+Block at (64, 128) - Average Color, 140, 112,78 ,- Closest Color:, Lemon Yellow Darker, H/B1
+Block at (96, 128) - Average Color, 186, 88,100 ,- Closest Color:, Red Light, G3
+Block at (128, 128) - Average Color, 130, 86,81 ,- Closest Color:, Lemon Yellow Darker, H/B1
+Block at (160, 128) - Average Color, 93, 72,98 ,- Closest Color:, Darker Violet Dark, F2
+Block at (192, 128) - Average Color, 182, 115,135 ,- Closest Color:, Ultra Violet Darker, F#1
+Block at (0, 160) - Average Color, 143, 89,70 ,- Closest Color:, Lemon Yellow Darker, H/B1
+Block at (32, 160) - Average Color, 49, 77,71 ,- Closest Color:, Indigo Darker, D#1
+Block at (64, 160) - Average Color, 122, 119,76 ,- Closest Color:, Lemon Yellow Darker, H/B1
+Block at (96, 160) - Average Color, 187, 95,105 ,- Closest Color:, Red Light, G3
+Block at (128, 160) - Average Color, 135, 87,85 ,- Closest Color:, Lemon Yellow Darker, H/B1
+Block at (160, 160) - Average Color, 145, 105,125 ,- Closest Color:, Darker Violet Light, F3
+Block at (192, 160) - Average Color, 200, 132,148 ,- Closest Color:, Ultra Violet Dark, F#2
+Block at (0, 192) - Average Color, 143, 155,48 ,- Closest Color:, Lemon Yellow Darker, H/B1
+Block at (32, 192) - Average Color, 71, 99,65 ,- Closest Color:, Lemon Yellow Darker, H/B1
+Block at (64, 192) - Average Color, 152, 114,96 ,- Closest Color:, Lemon Yellow Darker, H/B1
+Block at (96, 192) - Average Color, 169, 141,111 ,- Closest Color:, Lemon Yellow Darker, H/B1
+Block at (128, 192) - Average Color, 141, 99,93 ,- Closest Color:, Lemon Yellow Darker, H/B1
+Block at (160, 192) - Average Color, 184, 139,132 ,- Closest Color:, Ultra Violet Darker, F#1
+Block at (192, 192) - Average Color, 201, 139,153 ,- Closest Color:, Ultra Violet Dark, F#2
+Block at (0, 224) - Average Color, 150, 163,41 ,- Closest Color:, Lemon Yellow Darker, H/B1
+Block at (32, 224) - Average Color, 121, 141,57 ,- Closest Color:, Lemon Yellow Darker, H/B1
+Block at (64, 224) - Average Color, 142, 142,88 ,- Closest Color:, Lemon Yellow Darker, H/B1
+Block at (96, 224) - Average Color, 176, 135,79 ,- Closest Color:, Lemon Yellow Darker, H/B1
+Block at (128, 224) - Average Color, 162, 154,102 ,- Closest Color:, Lemon Yellow Darker, H/B1
+Block at (160, 224) - Average Color, 189, 148,126 ,- Closest Color:, Reddish Orange Light, G#3
+Block at (192, 224) - Average Color, 209, 147,169 ,- Closest Color:, Ultra Violet Dark, F#2
+Block at (0, 256) - Average Color, 137, 161,54 ,- Closest Color:, Lemon Yellow Darker, H/B1
+Block at (32, 256) - Average Color, 150, 162,86 ,- Closest Color:, Lemon Yellow Darker, H/B1
+Block at (64, 256) - Average Color, 122, 112,105 ,- Closest Color:, Lemon Yellow Darker, H/B1
+Block at (96, 256) - Average Color, 174, 116,106 ,- Closest Color:, Lemon Yellow Darker, H/B1
+Block at (128, 256) - Average Color, 165, 143,97 ,- Closest Color:, Lemon Yellow Darker, H/B1
+Block at (160, 256) - Average Color, 213, 156,148 ,- Closest Color:, Reddish Orange Light, G#3
+Block at (192, 256) - Average Color, 208, 165,167 ,- Closest Color:, Ultra Violet Dark, F#2
+Block at (0, 288) - Average Color, 130, 155,68 ,- Closest Color:, Lemon Yellow Darker, H/B1
+Block at (32, 288) - Average Color, 152, 159,93 ,- Closest Color:, Lemon Yellow Darker, H/B1
+Block at (64, 288) - Average Color, 126, 138,85 ,- Closest Color:, Lemon Yellow Darker, H/B1
+Block at (96, 288) - Average Color, 142, 166,115 ,- Closest Color:, Lemon Yellow Darker, H/B1
+Block at (128, 288) - Average Color, 179, 184,132 ,- Closest Color:, Reddish Orange Light, G#3
+Block at (160, 288) - Average Color, 203, 198,138 ,- Closest Color:, Reddish Orange Light, G#3
+Block at (192, 288) - Average Color, 205, 194,149 ,- Closest Color:, Reddish Orange Light, G#3
+Block at (0, 320) - Average Color, 120, 141,59 ,- Closest Color:, Lemon Yellow Darker, H/B1
+Block at (32, 320) - Average Color, 122, 132,71 ,- Closest Color:, Lemon Yellow Darker, H/B1
+Block at (64, 320) - Average Color, 89, 106,76 ,- Closest Color:, Lemon Yellow Darker, H/B1
+Block at (96, 320) - Average Color, 89, 129,114 ,- Closest Color:, Turquoise Darker, C#1
+Block at (128, 320) - Average Color, 113, 143,146 ,- Closest Color:, Turquoise Dark, C#2
+Block at (160, 320) - Average Color, 158, 187,145 ,- Closest Color:, Green Light, C3
+Block at (192, 320) - Average Color, 199, 205,133 ,- Closest Color:, Reddish Orange Light, G#3
+Block at (0, 352) - Average Color, 79, 93,33 ,- Closest Color:, Reddish Orange Darker, G#1
+Block at (32, 352) - Average Color, 69, 82,41 ,- Closest Color:, Darker Violet Darker, F1
+Block at (64, 352) - Average Color, 30, 52,52 ,- Closest Color:, Indigo Darker, D#1
+Block at (96, 352) - Average Color, 29, 60,83 ,- Closest Color:, Indigo Darker, D#1
+Block at (128, 352) - Average Color, 76, 92,129 ,- Closest Color:, Indigo Light, D#3
+Block at (160, 352) - Average Color, 117, 129,118 ,- Closest Color:, Lemon Yellow Darker, H/B1
+Block at (192, 352) - Average Color, 188, 163,98 ,- Closest Color:, Lemon Yellow Dark, H/B2
