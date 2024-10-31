@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Step 1: Read and Parse the File
-filename = 'imagesToPixels.txt'  # Update with the actual path to your file
+filename = 'imagesPixels.txt'  # Update with the actual path to your file
 
 # Read and extract pixel data using regular expressions
 with open(filename, 'r') as file:
