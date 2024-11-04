@@ -15,7 +15,7 @@ color_tones = {
     'Reddish Orange Dark': {'rgb': (200, 130, 0), 'tone': 'G#2'},   # Dark shade
     'Reddish Orange Light': {'rgb': (255, 180, 100), 'tone': 'G#3'},  # Light shade
 
-    'ORANGE': {'rgb': (255, 255, 0), 'frequency': 445.9, 'tone': 'A', 'difference': 5.9},
+    'ORANGE': {'rgb': (255, 154, 0), 'frequency': 445.9, 'tone': 'A', 'difference': 5.9},
     'Orange Darker': {'rgb': (150, 150, 0), 'tone': 'A1'},  # Darker shade
     'Orange Dark': {'rgb': (200, 200, 0), 'tone': 'A2'},   # Dark shade
     'Orange Light': {'rgb': (255, 255, 100), 'tone': 'A3'},  # Light shade

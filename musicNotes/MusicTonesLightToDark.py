@@ -25,10 +25,10 @@ color_tones = {
     'Yellow Dark': {'rgb': (200, 200, 25), 'tone': 'A#2'},   # Dark shade
     'Yellow Light': {'rgb': (255, 255, 100), 'tone': 'A#3'},  # Light shade
 
-    'LEMON YELLOW': {'rgb': (255, 255, 102), 'frequency': 500.5, 'tone': 'H/B', 'difference': 6.5},
-    'Lemon Yellow Darker': {'rgb': (150, 150, 50), 'tone': 'H/B1'},  # Darker shade
-    'Lemon Yellow Dark': {'rgb': (200, 200, 50), 'tone': 'H/B2'},   # Dark shade
-    'Lemon Yellow Light': {'rgb': (255, 255, 150), 'tone': 'H/B3'},  # Light shade
+    'LEMON YELLOW': {'rgb': (255, 255, 102), 'frequency': 500.5, 'tone': 'B', 'difference': 6.5},
+    'Lemon Yellow Darker': {'rgb': (150, 150, 50), 'tone': 'B1'},  # Darker shade
+    'Lemon Yellow Dark': {'rgb': (200, 200, 50), 'tone': 'B2'},   # Dark shade
+    'Lemon Yellow Light': {'rgb': (255, 255, 150), 'tone': 'B3'},  # Light shade
 
     'GREEN': {'rgb': (0, 255, 0), 'frequency': 527.8, 'tone': 'C', 'difference': 3.8},
     'Green Darker': {'rgb': (0, 150, 0), 'tone': 'C1'},  # Darker shade
