@@ -1,4 +1,4 @@
-'''import tkinter as tk
+import tkinter as tk
 from tkinter import ttk
 from PIL import Image
 import numpy as np
@@ -213,8 +213,8 @@ process_button = tk.Button(root, text="Process Image Blocks", command=process_im
 process_button.pack(pady=20)
 
 root.mainloop()
-'''
 
+''' This code will save the data to note_table.txt fix it later
 import tkinter as tk
 from tkinter import ttk
 from PIL import Image
@@ -430,3 +430,4 @@ process_button = tk.Button(root, text="Process Image Blocks", command=process_im
 process_button.pack(pady=20)
 
 root.mainloop()
+'''
