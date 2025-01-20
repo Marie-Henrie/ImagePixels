@@ -1,0 +1,169 @@
+Block at (0, 0) - Average Color, 103, 136,113 ,- Closest Color:, Lemon Yellow Darker, B1
+Block at (23, 0) - Average Color, 149, 141,83 ,- Closest Color:, Lemon Yellow Darker, B1
+Block at (46, 0) - Average Color, 199, 171,68 ,- Closest Color:, Lemon Yellow Dark, B2
+Block at (69, 0) - Average Color, 224, 194,80 ,- Closest Color:, Lemon Yellow Dark, B2
+Block at (92, 0) - Average Color, 231, 193,61 ,- Closest Color:, Lemon Yellow Dark, B2
+Block at (115, 0) - Average Color, 218, 189,58 ,- Closest Color:, Lemon Yellow Dark, B2
+Block at (138, 0) - Average Color, 207, 189,84 ,- Closest Color:, Lemon Yellow Dark, B2
+Block at (161, 0) - Average Color, 134, 169,85 ,- Closest Color:, Lemon Yellow Darker, B1
+Block at (184, 0) - Average Color, 56, 157,95 ,- Closest Color:, Turquoise Darker, C#1
+Block at (207, 0) - Average Color, 33, 162,146 ,- Closest Color:, Turquoise Darker, C#1
+Block at (230, 0) - Average Color, 66, 148,61 ,- Closest Color:, Lemon Yellow Darker, B1
+Block at (253, 0) - Average Color, 139, 165,68 ,- Closest Color:, Lemon Yellow Darker, B1
+Block at (276, 0) - Average Color, 172, 177,23 ,- Closest Color:, Yellow Darker, A#1
+Block at (0, 23) - Average Color, 58, 109,144 ,- Closest Color:, Turquoise Darker, C#1
+Block at (23, 23) - Average Color, 96, 101,125 ,- Closest Color:, Turquoise Darker, C#1
+Block at (46, 23) - Average Color, 140, 137,79 ,- Closest Color:, Lemon Yellow Darker, B1
+Block at (69, 23) - Average Color, 207, 188,76 ,- Closest Color:, Lemon Yellow Dark, B2
+Block at (92, 23) - Average Color, 206, 178,69 ,- Closest Color:, Lemon Yellow Dark, B2
+Block at (115, 23) - Average Color, 146, 136,66 ,- Closest Color:, Lemon Yellow Darker, B1
+Block at (138, 23) - Average Color, 174, 161,112 ,- Closest Color:, Lemon Yellow Darker, B1
+Block at (161, 23) - Average Color, 176, 136,149 ,- Closest Color:, Ultra Violet Darker, F#1
+Block at (184, 23) - Average Color, 67, 164,169 ,- Closest Color:, TURQUOISE, C#
+Block at (207, 23) - Average Color, 35, 151,175 ,- Closest Color:, Turquoise Darker, C#1
+Block at (230, 23) - Average Color, 119, 120,84 ,- Closest Color:, Lemon Yellow Darker, B1
+Block at (253, 23) - Average Color, 159, 136,52 ,- Closest Color:, Lemon Yellow Darker, B1
+Block at (276, 23) - Average Color, 138, 162,46 ,- Closest Color:, Lemon Yellow Darker, B1
+Block at (0, 46) - Average Color, 52, 107,164 ,- Closest Color:, Turquoise Darker, C#1
+Block at (23, 46) - Average Color, 74, 78,112 ,- Closest Color:, Turquoise Darker, C#1
+Block at (46, 46) - Average Color, 71, 86,116 ,- Closest Color:, Turquoise Darker, C#1
+Block at (69, 46) - Average Color, 154, 159,84 ,- Closest Color:, Lemon Yellow Darker, B1
+Block at (92, 46) - Average Color, 124, 120,96 ,- Closest Color:, Lemon Yellow Darker, B1
+Block at (115, 46) - Average Color, 190, 126,94 ,- Closest Color:, Lemon Yellow Darker, B1
+Block at (138, 46) - Average Color, 204, 184,114 ,- Closest Color:, Reddish Orange Light, G#3
+Block at (161, 46) - Average Color, 183, 162,135 ,- Closest Color:, Ultra Violet Dark, F#2
+Block at (184, 46) - Average Color, 95, 174,162 ,- Closest Color:, TURQUOISE, C#
+Block at (207, 46) - Average Color, 80, 118,146 ,- Closest Color:, Turquoise Darker, C#1
+Block at (230, 46) - Average Color, 143, 80,61 ,- Closest Color:, Reddish Orange Darker, G#1
+Block at (253, 46) - Average Color, 120, 74,49 ,- Closest Color:, Reddish Orange Darker, G#1
+Block at (276, 46) - Average Color, 95, 102,67 ,- Closest Color:, Lemon Yellow Darker, B1
+Block at (0, 69) - Average Color, 71, 147,157 ,- Closest Color:, Turquoise Darker, C#1
+Block at (23, 69) - Average Color, 66, 81,107 ,- Closest Color:, Turquoise Darker, C#1
+Block at (46, 69) - Average Color, 55, 74,99 ,- Closest Color:, Turquoise Darker, C#1
+Block at (69, 69) - Average Color, 54, 98,137 ,- Closest Color:, Turquoise Darker, C#1
+Block at (92, 69) - Average Color, 70, 103,137 ,- Closest Color:, Turquoise Darker, C#1
+Block at (115, 69) - Average Color, 203, 145,135 ,- Closest Color:, Reddish Orange Light, G#3
+Block at (138, 69) - Average Color, 189, 179,118 ,- Closest Color:, Reddish Orange Light, G#3
+Block at (161, 69) - Average Color, 138, 181,148 ,- Closest Color:, Ultra Violet Dark, F#2
+Block at (184, 69) - Average Color, 83, 188,155 ,- Closest Color:, TURQUOISE, C#
+Block at (207, 69) - Average Color, 98, 93,123 ,- Closest Color:, Turquoise Darker, C#1
+Block at (230, 69) - Average Color, 63, 55,50 ,- Closest Color:, Darker Violet Darker, F1
+Block at (253, 69) - Average Color, 89, 49,51 ,- Closest Color:, Darker Violet Darker, F1
+Block at (276, 69) - Average Color, 45, 116,113 ,- Closest Color:, Turquoise Darker, C#1
+Block at (0, 92) - Average Color, 91, 182,153 ,- Closest Color:, TURQUOISE, C#
+Block at (23, 92) - Average Color, 143, 143,100 ,- Closest Color:, Lemon Yellow Darker, B1
+Block at (46, 92) - Average Color, 95, 129,92 ,- Closest Color:, Lemon Yellow Darker, B1
+Block at (69, 92) - Average Color, 45, 85,103 ,- Closest Color:, Turquoise Darker, C#1
+Block at (92, 92) - Average Color, 54, 85,115 ,- Closest Color:, Turquoise Darker, C#1
+Block at (115, 92) - Average Color, 184, 172,89 ,- Closest Color:, Lemon Yellow Dark, B2
+Block at (138, 92) - Average Color, 165, 192,108 ,- Closest Color:, Lemon Yellow Dark, B2
+Block at (161, 92) - Average Color, 88, 155,158 ,- Closest Color:, Turquoise Darker, C#1
+Block at (184, 92) - Average Color, 40, 72,100 ,- Closest Color:, Turquoise Darker, C#1
+Block at (207, 92) - Average Color, 31, 72,66 ,- Closest Color:, Indigo Darker, D#1
+Block at (230, 92) - Average Color, 20, 90,63 ,- Closest Color:, Turquoise Darker, C#1
+Block at (253, 92) - Average Color, 52, 125,95 ,- Closest Color:, Turquoise Darker, C#1
+Block at (276, 92) - Average Color, 53, 166,136 ,- Closest Color:, Turquoise Darker, C#1
+Block at (0, 115) - Average Color, 176, 192,99 ,- Closest Color:, Lemon Yellow Dark, B2
+Block at (23, 115) - Average Color, 185, 186,93 ,- Closest Color:, Lemon Yellow Dark, B2
+Block at (46, 115) - Average Color, 114, 185,106 ,- Closest Color:, Green Light, C3
+Block at (69, 115) - Average Color, 62, 109,133 ,- Closest Color:, Turquoise Darker, C#1
+Block at (92, 115) - Average Color, 101, 114,104 ,- Closest Color:, Turquoise Darker, C#1
+Block at (115, 115) - Average Color, 192, 171,98 ,- Closest Color:, Lemon Yellow Dark, B2
+Block at (138, 115) - Average Color, 132, 185,144 ,- Closest Color:, Green Light, C3
+Block at (161, 115) - Average Color, 55, 172,172 ,- Closest Color:, TURQUOISE, C#
+Block at (184, 115) - Average Color, 58, 92,103 ,- Closest Color:, Turquoise Darker, C#1
+Block at (207, 115) - Average Color, 27, 115,93 ,- Closest Color:, Turquoise Darker, C#1
+Block at (230, 115) - Average Color, 38, 140,99 ,- Closest Color:, Turquoise Darker, C#1
+Block at (253, 115) - Average Color, 102, 167,109 ,- Closest Color:, Lemon Yellow Darker, B1
+Block at (276, 115) - Average Color, 95, 118,118 ,- Closest Color:, Turquoise Darker, C#1
+Block at (0, 138) - Average Color, 214, 203,81 ,- Closest Color:, Lemon Yellow Dark, B2
+Block at (23, 138) - Average Color, 155, 180,90 ,- Closest Color:, Lemon Yellow Darker, B1
+Block at (46, 138) - Average Color, 66, 173,134 ,- Closest Color:, Turquoise Darker, C#1
+Block at (69, 138) - Average Color, 98, 148,141 ,- Closest Color:, Turquoise Darker, C#1
+Block at (92, 138) - Average Color, 173, 147,137 ,- Closest Color:, Ultra Violet Darker, F#1
+Block at (115, 138) - Average Color, 207, 176,119 ,- Closest Color:, Reddish Orange Light, G#3
+Block at (138, 138) - Average Color, 153, 183,130 ,- Closest Color:, Lemon Yellow Darker, B1
+Block at (161, 138) - Average Color, 35, 161,166 ,- Closest Color:, Turquoise Darker, C#1
+Block at (184, 138) - Average Color, 16, 155,141 ,- Closest Color:, Turquoise Darker, C#1
+Block at (207, 138) - Average Color, 19, 146,155 ,- Closest Color:, Turquoise Darker, C#1
+Block at (230, 138) - Average Color, 69, 135,132 ,- Closest Color:, Turquoise Darker, C#1
+Block at (253, 138) - Average Color, 155, 132,60 ,- Closest Color:, Lemon Yellow Darker, B1
+Block at (276, 138) - Average Color, 168, 125,125 ,- Closest Color:, Ultra Violet Darker, F#1
+Block at (0, 161) - Average Color, 221, 211,81 ,- Closest Color:, Lemon Yellow Dark, B2
+Block at (23, 161) - Average Color, 137, 177,107 ,- Closest Color:, Lemon Yellow Darker, B1
+Block at (46, 161) - Average Color, 51, 139,148 ,- Closest Color:, Turquoise Darker, C#1
+Block at (69, 161) - Average Color, 154, 157,170 ,- Closest Color:, Ultra Violet Dark, F#2
+Block at (92, 161) - Average Color, 112, 93,120 ,- Closest Color:, Indigo Light, D#3
+Block at (115, 161) - Average Color, 207, 144,120 ,- Closest Color:, Reddish Orange Light, G#3
+Block at (138, 161) - Average Color, 103, 124,103 ,- Closest Color:, Lemon Yellow Darker, B1
+Block at (161, 161) - Average Color, 46, 122,127 ,- Closest Color:, Turquoise Darker, C#1
+Block at (184, 161) - Average Color, 30, 125,134 ,- Closest Color:, Turquoise Darker, C#1
+Block at (207, 161) - Average Color, 27, 144,170 ,- Closest Color:, Turquoise Darker, C#1
+Block at (230, 161) - Average Color, 54, 138,149 ,- Closest Color:, Turquoise Darker, C#1
+Block at (253, 161) - Average Color, 161, 119,55 ,- Closest Color:, Lemon Yellow Darker, B1
+Block at (276, 161) - Average Color, 173, 101,83 ,- Closest Color:, Lemon Yellow Darker, B1
+Block at (0, 184) - Average Color, 215, 195,98 ,- Closest Color:, Reddish Orange Light, G#3
+Block at (23, 184) - Average Color, 158, 148,132 ,- Closest Color:, Lemon Yellow Darker, B1
+Block at (46, 184) - Average Color, 43, 126,161 ,- Closest Color:, Turquoise Darker, C#1
+Block at (69, 184) - Average Color, 154, 172,185 ,- Closest Color:, Ultra Violet Dark, F#2
+Block at (92, 184) - Average Color, 181, 150,148 ,- Closest Color:, Ultra Violet Dark, F#2
+Block at (115, 184) - Average Color, 199, 145,107 ,- Closest Color:, Reddish Orange Light, G#3
+Block at (138, 184) - Average Color, 118, 157,126 ,- Closest Color:, Lemon Yellow Darker, B1
+Block at (161, 184) - Average Color, 22, 127,135 ,- Closest Color:, Turquoise Darker, C#1
+Block at (184, 184) - Average Color, 6, 148,154 ,- Closest Color:, Turquoise Darker, C#1
+Block at (207, 184) - Average Color, 21, 140,153 ,- Closest Color:, Turquoise Darker, C#1
+Block at (230, 184) - Average Color, 102, 112,70 ,- Closest Color:, Lemon Yellow Darker, B1
+Block at (253, 184) - Average Color, 155, 88,66 ,- Closest Color:, Lemon Yellow Darker, B1
+Block at (276, 184) - Average Color, 178, 64,115 ,- Closest Color:, Darker Violet Light, F3
+Block at (0, 207) - Average Color, 207, 174,114 ,- Closest Color:, Reddish Orange Light, G#3
+Block at (23, 207) - Average Color, 181, 134,144 ,- Closest Color:, Ultra Violet Darker, F#1
+Block at (46, 207) - Average Color, 66, 129,175 ,- Closest Color:, Turquoise Darker, C#1
+Block at (69, 207) - Average Color, 70, 99,121 ,- Closest Color:, Turquoise Darker, C#1
+Block at (92, 207) - Average Color, 45, 64,87 ,- Closest Color:, Turquoise Darker, C#1
+Block at (115, 207) - Average Color, 58, 80,101 ,- Closest Color:, Turquoise Darker, C#1
+Block at (138, 207) - Average Color, 106, 134,121 ,- Closest Color:, Lemon Yellow Darker, B1
+Block at (161, 207) - Average Color, 38, 133,122 ,- Closest Color:, Turquoise Darker, C#1
+Block at (184, 207) - Average Color, 15, 150,150 ,- Closest Color:, Turquoise Darker, C#1
+Block at (207, 207) - Average Color, 32, 160,158 ,- Closest Color:, Turquoise Darker, C#1
+Block at (230, 207) - Average Color, 96, 142,115 ,- Closest Color:, Turquoise Darker, C#1
+Block at (253, 207) - Average Color, 151, 105,97 ,- Closest Color:, Lemon Yellow Darker, B1
+Block at (276, 207) - Average Color, 172, 93,134 ,- Closest Color:, Ultra Violet Darker, F#1
+Block at (0, 230) - Average Color, 211, 183,81 ,- Closest Color:, Lemon Yellow Dark, B2
+Block at (23, 230) - Average Color, 140, 135,137 ,- Closest Color:, Ultra Violet Darker, F#1
+Block at (46, 230) - Average Color, 27, 143,177 ,- Closest Color:, Turquoise Darker, C#1
+Block at (69, 230) - Average Color, 38, 123,144 ,- Closest Color:, Turquoise Darker, C#1
+Block at (92, 230) - Average Color, 69, 80,110 ,- Closest Color:, Turquoise Darker, C#1
+Block at (115, 230) - Average Color, 31, 90,129 ,- Closest Color:, Turquoise Darker, C#1
+Block at (138, 230) - Average Color, 12, 90,141 ,- Closest Color:, Turquoise Darker, C#1
+Block at (161, 230) - Average Color, 5, 137,164 ,- Closest Color:, Turquoise Darker, C#1
+Block at (184, 230) - Average Color, 4, 146,154 ,- Closest Color:, Turquoise Darker, C#1
+Block at (207, 230) - Average Color, 29, 166,160 ,- Closest Color:, Turquoise Darker, C#1
+Block at (230, 230) - Average Color, 91, 170,112 ,- Closest Color:, Green Light, C3
+Block at (253, 230) - Average Color, 121, 131,105 ,- Closest Color:, Lemon Yellow Darker, B1
+Block at (276, 230) - Average Color, 155, 112,146 ,- Closest Color:, Ultra Violet Darker, F#1
+Block at (0, 253) - Average Color, 206, 198,65 ,- Closest Color:, Lemon Yellow Dark, B2
+Block at (23, 253) - Average Color, 40, 145,156 ,- Closest Color:, Turquoise Darker, C#1
+Block at (46, 253) - Average Color, 9, 149,178 ,- Closest Color:, Turquoise Darker, C#1
+Block at (69, 253) - Average Color, 11, 143,167 ,- Closest Color:, Turquoise Darker, C#1
+Block at (92, 253) - Average Color, 34, 115,136 ,- Closest Color:, Turquoise Darker, C#1
+Block at (115, 253) - Average Color, 34, 112,143 ,- Closest Color:, Turquoise Darker, C#1
+Block at (138, 253) - Average Color, 6, 116,157 ,- Closest Color:, Turquoise Darker, C#1
+Block at (161, 253) - Average Color, 3, 135,159 ,- Closest Color:, Turquoise Darker, C#1
+Block at (184, 253) - Average Color, 3, 137,154 ,- Closest Color:, Turquoise Darker, C#1
+Block at (207, 253) - Average Color, 22, 160,160 ,- Closest Color:, Turquoise Darker, C#1
+Block at (230, 253) - Average Color, 69, 172,106 ,- Closest Color:, Green Light, C3
+Block at (253, 253) - Average Color, 107, 143,113 ,- Closest Color:, Lemon Yellow Darker, B1
+Block at (276, 253) - Average Color, 139, 127,144 ,- Closest Color:, Ultra Violet Darker, F#1
+Block at (0, 276) - Average Color, 183, 199,66 ,- Closest Color:, Lemon Yellow Dark, B2
+Block at (23, 276) - Average Color, 51, 137,137 ,- Closest Color:, Turquoise Darker, C#1
+Block at (46, 276) - Average Color, 11, 144,176 ,- Closest Color:, Turquoise Darker, C#1
+Block at (69, 276) - Average Color, 16, 139,166 ,- Closest Color:, Turquoise Darker, C#1
+Block at (92, 276) - Average Color, 12, 147,164 ,- Closest Color:, Turquoise Darker, C#1
+Block at (115, 276) - Average Color, 12, 143,165 ,- Closest Color:, Turquoise Darker, C#1
+Block at (138, 276) - Average Color, 16, 130,169 ,- Closest Color:, Turquoise Darker, C#1
+Block at (161, 276) - Average Color, 12, 118,161 ,- Closest Color:, Turquoise Darker, C#1
+Block at (184, 276) - Average Color, 12, 137,157 ,- Closest Color:, Turquoise Darker, C#1
+Block at (207, 276) - Average Color, 18, 148,161 ,- Closest Color:, Turquoise Darker, C#1
+Block at (230, 276) - Average Color, 39, 171,126 ,- Closest Color:, Turquoise Darker, C#1
+Block at (253, 276) - Average Color, 92, 156,152 ,- Closest Color:, Turquoise Darker, C#1
+Block at (276, 276) - Average Color, 119, 145,170 ,- Closest Color:, Ultra Violet Darker, F#1

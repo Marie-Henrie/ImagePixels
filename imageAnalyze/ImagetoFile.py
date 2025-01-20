@@ -38,8 +38,3 @@ def save_image_pixels_toFile(image_path, rgb_output_file):
         
         print(f"\nRGB values are saved to: {rgb_output_file}")
         
-
-# This function will be called from other file
-if __name__ == "__main__":
-    # Call the function and save the RGB data to a .txt file
-    save_image_pixels_toFile("images/mosaic_image.jpg", "imagesToPixels_cow.txt")

@@ -22,6 +22,6 @@ def filter_pixel_dataFile(input_file, output_file, x_range=(0, 999), y_range=(0,
     print(f"Filtered pixel data saved to {output_file}")
 
 # This function will be called from other file
-if __name__ == "__main__":
-     # Call the function
-    filter_pixel_dataFile('rgb_values.txt', 'filtered_pixels_1000_1000.txt', x_range=(0, 999), y_range=(0, 999))
+#if __name__ == "__main__":
+     # Call the function'''
+#    filter_pixel_dataFile('rgb_values.txt', 'filtered_pixels_1000_1000.txt', x_range=(0, 999), y_range=(0, 999))

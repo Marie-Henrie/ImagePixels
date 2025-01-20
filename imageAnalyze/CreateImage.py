@@ -52,6 +52,6 @@ def create_image_from_rgb_file(input_file, output_image):
         print(f"Error saving the image: {e}")
 
 # This function will be called from other file
-if __name__ == "__main__":
+#if __name__ == "__main__":
     # Call the function and create the new image and save it
-    create_image_from_rgb_file('data/imagesToPixels_cow.txt', 'Pixel_Cow.png')
+#    create_image_from_rgb_file('data/imagesToPixels_cow.txt', 'Pixel_Cow.png')

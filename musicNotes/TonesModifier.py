@@ -2,6 +2,13 @@ import tkinter as tk
 from tkinter import ttk
 from PIL import Image
 import numpy as np
+from tkinter import filedialog
+from tkinter import simpledialog
+import json
+from tkinter import Tk, filedialog
+
+
+#def create_tones_modifier():
 
 # Updated color_tones dictionary with rearranged tones
 color_tones = {
@@ -25,10 +32,10 @@ color_tones = {
     'Yellow Dark': {'rgb': (200, 200, 25), 'tone': 'A#2'},   # Dark shade
     'Yellow Light': {'rgb': (255, 255, 100), 'tone': 'A#3'},  # Light shade
 
-    'LEMON YELLOW': {'rgb': (255, 255, 102), 'frequency': 500.5, 'tone': 'H/B', 'difference': 6.5},
-    'Lemon Yellow Darker': {'rgb': (150, 150, 50), 'tone': 'H/B1'},  # Darker shade
-    'Lemon Yellow Dark': {'rgb': (200, 200, 50), 'tone': 'H/B2'},   # Dark shade
-    'Lemon Yellow Light': {'rgb': (255, 255, 150), 'tone': 'H/B3'},  # Light shade
+    'LEMON YELLOW': {'rgb': (255, 255, 102), 'frequency': 500.5, 'tone': 'B', 'difference': 6.5},
+    'Lemon Yellow Darker': {'rgb': (150, 150, 50), 'tone': 'B1'},  # Darker shade
+    'Lemon Yellow Dark': {'rgb': (200, 200, 50), 'tone': 'B2'},   # Dark shade
+    'Lemon Yellow Light': {'rgb': (255, 255, 150), 'tone': 'B3'},  # Light shade
 
     'GREEN': {'rgb': (0, 255, 0), 'frequency': 527.8, 'tone': 'C', 'difference': 3.8},
     'Green Darker': {'rgb': (0, 150, 0), 'tone': 'C1'},  # Darker shade
@@ -71,6 +78,41 @@ def update_color_tones(color_name, r, g, b):
     color_tones[color_name]['rgb'] = (r, g, b)
     update_color_preview(color_name)
 
+#-------------
+# Esimerkki funktio, joka päivittää värin esikatselun (voit määritellä tämän tarkemmin)
+def update_color_preview(color_name):
+    print(f"Preview updated for {color_name}: {color_tones[color_name]['rgb']}")
+
+
+# Function to save the volor_tones to jsaon file // need to still fix
+def save_color_tones_to_file():
+    # Create hiding Tk window
+    root = Tk()
+    root.withdraw()
+
+    # Ask the file location
+    save_path = filedialog.asksaveasfilename(
+        title="Save Color Tones",
+        defaultextension=".json",
+        filetypes=[("JSON files", "*.json"), ("All files", "*.*")]
+    )
+
+    # if the user choose the saving location
+    if save_path:
+        with open(save_path, 'w') as file:
+            json.dump(color_tones, file, indent=4)
+        print(f"Color tones saved to: {save_path}")
+    else:
+        print("Save operation canceled.")
+
+
+
+# Save in the interface
+save_color_tones_to_file()
+
+#-------------------------------------------------
+
+
 # Function to display color preview for each tone
 def update_color_preview(color_name):
     r, g, b = color_tones[color_name]['rgb']
@@ -99,12 +141,35 @@ def print_color_block_with_text(avg_color, position, color_info):
     r, g, b = avg_color
     print(f"\033[48;2;{r};{g};{b}m  \033[0m Block at {position} - Average Color: {r},{g},{b} - Closest Color: {color_name}, Tone: {tone}")
 
-# Load the image
-image = Image.open('images/new_cat.jpg')
-image = image.convert('RGB')
-width, height = image.size
-block_size = 23
-output_image = Image.new('RGB', (width, height))
+# Lataa kuvan käyttäjän valinnasta
+file_path = filedialog.askopenfilename(
+    title="Valitse kuva avattavaksi",
+    filetypes=[("Image files", "*.jpg *.jpeg *.png *.bmp *.gif")]
+)
+if file_path:
+    try:
+        # Avaa kuva ja muunna RGB-muotoon
+        image = Image.open(file_path)
+        image = image.convert('RGB')
+        width, height = image.size
+        
+        # Kysy käyttäjältä block_size
+        block_size = simpledialog.askinteger(
+            "Syötä lohkokoko",
+            "Anna lohkokoko (block size) pikseleinä:",
+            minvalue=1,
+            maxvalue=min(width, height) // 2  # Lohkokoko ei voi olla suurempi kuin puolet pienimmästä kuvamitasta
+        )
+        
+        if block_size is None:
+            print("Lohkokokoa ei valittu. Suljetaan sovellus.")
+            exit()
+        
+        output_image = Image.new('RGB', (width, height))
+    except Exception as e:
+        print(f"Kuvan avaaminen epäonnistui: {e}")
+else:
+    print("Ei kuvaa valittuna. Suljetaan sovellus.")
 
 # Tkinter setup
 root = tk.Tk()
@@ -135,8 +200,8 @@ for idx, color_name in enumerate(color_tones):
 
     # Create sliders for RGB values
     red_slider = tk.Scale(color_frame, from_=0, to=255, orient='horizontal', label='Red',
-                          command=lambda val, cn=color_name: update_color_tones(
-                              cn, int(val), color_tones[cn]['rgb'][1], color_tones[cn]['rgb'][2]))
+                        command=lambda val, cn=color_name: update_color_tones(
+                            cn, int(val), color_tones[cn]['rgb'][1], color_tones[cn]['rgb'][2]))
     red_slider.set(color_tones[color_name]['rgb'][0])
     red_slider.grid(row=1, column=0)
 
@@ -147,8 +212,8 @@ for idx, color_name in enumerate(color_tones):
     green_slider.grid(row=1, column=1)
 
     blue_slider = tk.Scale(color_frame, from_=0, to=255, orient='horizontal', label='Blue',
-                           command=lambda val, cn=color_name: update_color_tones(
-                               cn, color_tones[cn]['rgb'][0], color_tones[cn]['rgb'][1], int(val)))
+                        command=lambda val, cn=color_name: update_color_tones(
+                            cn, color_tones[cn]['rgb'][0], color_tones[cn]['rgb'][1], int(val)))
     blue_slider.set(color_tones[color_name]['rgb'][2])
     blue_slider.grid(row=1, column=2)
 
@@ -159,6 +224,7 @@ for idx, color_name in enumerate(color_tones):
 canvas.pack(side="left", fill="both", expand=True)
 scrollbar.pack(side="right", fill="y")
 
+'''
 # Process image blocks and update output image
 def process_image_blocks():
     tone_table = [["" for _ in range(9)] for _ in range(9)]  # Initialize 9x9 table
@@ -198,15 +264,142 @@ def process_image_blocks():
 
             row_count += 1  # Move to the next row in the table
             print()  # Print new line for visual clarity
+    '''   
+    # Process image blocks and update output image
+def process_image_blocks():
+    # Calculate the number of rows and columns dynamically based on the image dimensions
+    rows = height // block_size
+    cols = width // block_size
 
-    # Save the output image
-    output_image.save('images/output_color_blocks_cat.jpg')
-    print("Processing complete. Check 'color_data_rgb_cat.txt' and 'output_color_blocks_cat.jpg'.")
+    '''
+    # Initialize table dynamically based on calculated rows and columns
+    tone_table = [["" for _ in range(cols)] for _ in range(rows)]
 
-    # Print the 9x9 tone table
+    with open('data/color_data_rgb_cat.txt', 'w') as file:
+        row_count = 0  # Track row in the table
+
+        for y in range(0, height, block_size):
+            col_count = 0  # Reset column for each row
+
+            for x in range(0, width, block_size):
+                # Crop the image to get the current block
+                box = (x, y, min(x + block_size, width), min(y + block_size, height))
+                block = image.crop(box)
+                block_np = np.array(block)
+                avg_color = block_np.mean(axis=(0, 1)).astype(int)  # Average color
+                avg_color_tuple = tuple(avg_color)
+
+                # Find the closest color for the average color
+                closest_color_info = find_closest_color(avg_color_tuple)
+
+                # Print the average color block with text in the terminal
+                print_color_block_with_text(avg_color_tuple, (x, y), closest_color_info)
+
+                # Save the RGB values, closest color name, and tone to the text file
+                file.write(f"Block at ({x}, {y}) - Average Color, {avg_color_tuple[0]}, {avg_color_tuple[1]}, {avg_color_tuple[2]} - Closest Color: {closest_color_info[0]}, {closest_color_info[1]}\n")
+
+                # Store the closest tone in the table
+                if row_count < rows and col_count < cols:  # Ensure we're within bounds
+                    tone_table[row_count][col_count] = closest_color_info[1]  # Store the tone
+                    col_count += 1  # Move to the next column
+
+                # Create a block with the average color for output
+                color_block = Image.new('RGB', (box[2] - box[0], box[3] - box[1]), avg_color_tuple)
+                output_image.paste(color_block, box)
+
+            row_count += 1  # Move to the next row in the table
+            print()  # Print new line for visual clarity
+    '''
+
+    ## 20.1.25
+
+        # Avaa tiedostoselain tallennuspolun valitsemiseksi
+    save_path_txt = filedialog.asksaveasfilename(
+        title="Save color data as text",
+        defaultextension=".txt",  # Oletustiedostopääte
+        filetypes=[("Text files", "*.txt"), ("All files", "*.*")]
+    )
+
+    # Tarkista, että käyttäjä valitsi tiedoston
+    if save_path_txt:
+        # Initialize table dynamically based on calculated rows and columns
+        tone_table = [["" for _ in range(cols)] for _ in range(rows)]
+
+        with open(save_path_txt, 'w') as file:
+            row_count = 0  # Track row in the table
+
+            for y in range(0, height, block_size):
+                col_count = 0  # Reset column for each row
+
+                for x in range(0, width, block_size):
+                    # Crop the image to get the current block
+                    box = (x, y, min(x + block_size, width), min(y + block_size, height))
+                    block = image.crop(box)
+                    block_np = np.array(block)
+                    avg_color = block_np.mean(axis=(0, 1)).astype(int)  # Average color
+                    avg_color_tuple = tuple(avg_color)
+
+                    # Find the closest color for the average color
+                    closest_color_info = find_closest_color(avg_color_tuple)
+
+                    # Print the average color block with text in the terminal
+                    print_color_block_with_text(avg_color_tuple, (x, y), closest_color_info)
+
+                    # Save the RGB values, closest color name, and tone to the text file
+                    file.write(f"Block at ({x}, {y}) - Average Color, {avg_color_tuple[0]}, {avg_color_tuple[1]}, {avg_color_tuple[2]} - Closest Color: {closest_color_info[0]}, {closest_color_info[1]}\n")
+
+                    # Store the closest tone in the table
+                    if row_count < rows and col_count < cols:  # Ensure we're within bounds
+                        tone_table[row_count][col_count] = closest_color_info[1]  # Store the tone
+                        col_count += 1  # Move to the next column
+
+                    # Create a block with the average color for output
+                    color_block = Image.new('RGB', (box[2] - box[0], box[3] - box[1]), avg_color_tuple)
+                    output_image.paste(color_block, box)
+
+                row_count += 1  # Move to the next row in the table
+                print()  # Print new line for visual clarity
+
+        print(f"Data saved successfully to: {save_path_txt}")
+    else:
+        print("Save operation canceled.")
+
+    # Avaa tiedostoselain tallennuspolun valitsemiseksi
+    save_path = filedialog.asksaveasfilename(
+        title="Save the output image",
+        defaultextension=".jpg",  # Oletustiedostopääte
+        filetypes=[("JPEG files", "*.jpg"), ("PNG files", "*.png"), ("All files", "*.*")]
+    )
+
+    # Tarkista, että käyttäjä valitsi tiedoston
+    if save_path:
+        # Tallenna kuva valittuun sijaintiin
+        output_image.save(save_path)
+        print(f"Processing complete. Check '{save_path}'.")
+    else:
+        print("Save operation canceled.")
+
+        print(f"Processing complete. Check '{save_path}' and 'color_data_rgb_cat.txt'.")
+    
+   
+    # Print the tone table
     print("\nTone Table:")
     for row in tone_table:
         print(" | ".join(row))
+
+def save_tone_table_to_json(tone_table, file_path):
+    """Tallentaa tone_table-muuttujan JSON-tiedostoon."""
+    try:
+        with open(file_path, 'w') as file:
+            json.dump(tone_table, file, indent=4)
+        print(f"Tone table saved successfully to {file_path}.")
+    except Exception as e:
+        print(f"Error saving tone table: {e}")
+
+    
+    # Tallenna JSON-tiedostoon
+    save_tone_table_to_json(tone_table, "tone_table.json")
+            
 
 # Add a button to process image blocks
 process_button = tk.Button(root, text="Process Image Blocks", command=process_image_blocks)
