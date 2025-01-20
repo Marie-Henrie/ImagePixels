@@ -387,6 +387,7 @@ def process_image_blocks():
     for row in tone_table:
         print(" | ".join(row))
 
+#20.1.25 EI TOIMI VIELÄ---------------------
 def save_tone_table_to_json(tone_table, file_path):
     """Tallentaa tone_table-muuttujan JSON-tiedostoon."""
     try:
@@ -399,7 +400,7 @@ def save_tone_table_to_json(tone_table, file_path):
     
     # Tallenna JSON-tiedostoon
     save_tone_table_to_json(tone_table, "tone_table.json")
-            
+ #-----------------------------------------           
 
 # Add a button to process image blocks
 process_button = tk.Button(root, text="Process Image Blocks", command=process_image_blocks)
